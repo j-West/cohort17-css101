@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>CSS Selector Practice</title>
+    <link href="https://fonts.googleapis.com/css?family=Mystery+Quest" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
@@ -31,11 +32,13 @@
     <div id="main-div-2">
       <h2>Selecting an element</h2>
       <p>2. Show how to select child, descendant, and sibling elements.</p>
-      <img class="kermit" src="https://media.tenor.co/images/f05b3fc70174d5e12acd11f65e1200ca/raw" width="100px"/>
-      <img class="not-kermit" src="https://i.makeagif.com/media/7-22-2015/PGKJw7.gif" width="100px"/>
-      <img class="kermit" src="https://media.giphy.com/media/P3WGjmL1QFGA8/giphy.gif" width="100px"/>
-      <img class="kermit" src="https://media.giphy.com/media/IIdh7G6716skU/giphy.gif" width="100px"/>
 
+      <div id="flexWrapper">
+        <img class="kermit" src="https://media.tenor.co/images/f05b3fc70174d5e12acd11f65e1200ca/raw" width="100px"/>
+        <img class="not-kermit" src="https://i.makeagif.com/media/7-22-2015/PGKJw7.gif" width="100px"/>
+        <img class="kermit" src="https://media.giphy.com/media/P3WGjmL1QFGA8/giphy.gif" width="100px"/>
+        <img class="kermit" src="https://media.giphy.com/media/IIdh7G6716skU/giphy.gif" width="100px"/>
+      </div>
       <div class="sub-div">
         <p>I'm just a p.</p>
         <ul>
@@ -68,9 +71,9 @@
         </code>
         <br>
         <code>font-family: 'Mystery Quest', cursive;</code>
-        <ul>
+        <ul id="mysteryUl">
             <li>Font size 30px</li>
-            <li>Font weight bold</li>
+            <li><strong>Font weight bold</strong></li>
             <li>make me all uppercase</li>
         </ul>
       </div>
@@ -88,7 +91,7 @@
 
         <div>
           <label>Enter an email address:</label>
-          <input type="email" required/>
+          <input type="email"/>
         </div>
       </form>
     </div>

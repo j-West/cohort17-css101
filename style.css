@@ -1,5 +1,17 @@
 /* step 1 */
 
+#flexWrapper {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#flexWrapper > img {
+	width: 25%
+}
+
 p {
 	border-bottom: 1px solid red;
 }
@@ -22,4 +34,40 @@ p {
 #main-div-2 p {
 	background-color: orange;
 }
+
+
+
+/* Step 3 */
+
+#main-div-3 {
+	background-color: lightblue;
+}
+
+#mysteryUl li:nth-child(3) {
+	text-transform: uppercase;
+}
+
+
+#mysteryUl li:nth-child(1) {
+	font-size: 30px;
+	font-family: "Mystery Quest", cursive;
+}
+
+input {
+	background-color: green;
+}
+
+
+input:valid {
+	background-color: yellow;
+}
+
+input:invalid {
+	background-color: red;
+}
+
+
+
+
+
 
